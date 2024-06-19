@@ -1,0 +1,272 @@
+html{
+  scroll-behavior: smooth;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+body{
+  background-color: black;
+  color: #0000FF;
+}
+
+header{
+  width: 100vw;
+  height: 60px;
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  background-color: black;
+  border-bottom: 1px white solid;
+}
+
+header h4{
+  font-family: "noka", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.5em;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+#logo{
+  color: black;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#accueil{
+  height: 100vh;
+  position: relative; 
+}
+
+#accueil h1{
+  font-family: "noka", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  position: absolute;
+  bottom: 5px;
+  /*Comme sa boite mere est en relative
+  cette boite se positionne en absolute 
+  par rapport a sa boite mere. 
+  À 0px en bas de #accueil*/
+  z-index: 1;
+  width: 100vw;
+  font-size: 28em;
+  text-align: center;
+}
+
+
+#projets{
+  width: 95vw;
+  margin: auto;
+  padding-top: 80px;
+}
+
+#projets section{
+/*  border: 1px solid yellow;*/
+  margin-top: 30px;
+}
+
+#projets section h2{
+/*titre section page index*/
+  font-family: "noka", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 8em;  
+/*  border: 1px solid green;*/
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+#projets section article figure{
+  display: inline-block;
+  width: 35%;
+  overflow: hidden;
+  margin-right: 5%;
+  margin-bottom: 5%;
+/*  border: 1px solid green;  */
+}
+
+#projets section article figure img{
+  width: 100%;
+  }
+
+#pageinfos h2{
+  font-family: "noka", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20em; 
+  color: #0000FF; 
+/*  border: 1px solid green;*/
+  margin-bottom: 30px;
+  padding-top: 40%;
+  text-transform: uppercase;
+}
+
+/*
+
+PAGE PROJET
+
+*/
+
+#pageprojets{
+  width: 90vw;
+  padding-top: 80px;
+}
+
+#accueil h2{
+  font-family: "noka", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 17em; 
+  color: #0000FF; 
+  overflow-wrap: break-word;
+  position: absolute;
+  width: 100vw;
+  bottom: 5px;
+  z-index: 2;
+  text-transform: uppercase;
+  padding-left: 30px;
+}
+
+#pageprojets p {
+  font-family: "noka", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  width: 75%;
+  font-size: 1.5em;
+  line-height: 1.2em;
+  color: #ffffff;
+  padding-left: 30px;
+  margin-bottom: 100px;
+}
+
+#pageinfos p {
+  font-family: "noka", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 1.2em;
+  color: #0000FF;
+  margin-bottom: 60px;
+}
+
+
+.deuximages{
+  padding-left: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+} 
+
+.deuximages figure{
+  width: 45%;
+  overflow: hidden;
+  margin-bottom: 60px;
+}
+
+
+
+.deuximages figure img{
+  width: 100%;
+}
+
+.uneimage{
+  padding-left: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+} 
+
+.uneimage figure{
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 55px; 
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+
+
+#imagemoi{
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.troisimages{
+  padding-left: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 30px;
+} 
+
+.troisimages figure{
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 50%;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+
+
+.troisimages figure img{
+  width: 100%;
+}
+
+#texteimage{
+  width: 100%;
+  display: flex;
+}
+
+#texteimage p{
+  padding-top: 150px;
+  padding-left: 50px; 
+}
+
+
+
+
+nav{
+  border: 1px solid red;
+  width: 90vw;
+  margin:0px auto 30px;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li{
+  font-size: 3em;
+}
+
+
+
+footer{
+  /*border: 1px solid white;*/
+}
+
+footer p{
+  text-align: center;
+  font-family: "noka", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+

@@ -128,7 +128,7 @@ PAGE PROJET
   font-style: normal;
   font-size: 17em; 
   color: #0000FF; 
-  overflow-wrap: break-word;
+/*overflow-wrap: break-word;*/
   position: absolute;
   width: 100vw;
   bottom: 5px;
